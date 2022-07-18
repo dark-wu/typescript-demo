@@ -26,13 +26,13 @@ sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 ## 声明
 ### 直接声明
 >因为ts具有类型推导的机制
-```
+```ts
 let number1 = 1
 let bool1 = false
 let string1 = 'aaa'
 ```
 ### 指定类型
-```
+```ts
 let number2: number = 1
 let bool2: boolean = false
 let string2: string = 'bbb'

@@ -2,19 +2,19 @@
 
 ## 声明
 ### 直接声明
-```
+```ts
 let x = null
 let y = undefined
 ```
 
 ### 指定类型
-```
+```ts
 let xx: null = null
 let yy: undefined = undefined
 ```
 
 ## 重新赋值
-```
+```ts
 // 不会报错
 x = 'aaa'
 // 会报错
