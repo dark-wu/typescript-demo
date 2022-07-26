@@ -17,5 +17,6 @@ function throwError1(msg: string, errCode: number): never {
 1.当一个函数返回空值，或者没有返回值。应该定义为void
 2.当一个函数永远无法执行到最后（无法执行完成或执行到函数结束）。应该定义为never
 
-
+## 参考链接
+[TypeScript never 类型](https://cloud.tencent.com/developer/article/1594872)
 
